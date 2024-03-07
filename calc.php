@@ -24,6 +24,19 @@
         $total = $vendas * ($comissao/100);
         echo "Total: $total";
         echo("<p>");
+        /*
+             switch($comissao) {
+             case 2:
+            $resultado = $vendas * ($comissao / 100);
+             break;
+            case 5:
+            $resultado = $vendas * ($comissao / 100);
+            break;
+            case 10:
+            $resultado = $vendas * ($comissao / 100);
+            break;
+         }
+        */
 
         if($total >= 1000 ){
             echo("Você ganhou acima de 1000, PARABENS !! ");
